@@ -46,6 +46,17 @@ nav a:hover {
   color: #38bdf8;
 }
 
+.nav-github {
+  width: 25px;
+  height: 25px;
+  filter: invert(1); /* makes it white */
+  transition: 0.3s ease;
+}
+
+.nav-github:hover {
+  filter: invert(56%) sepia(88%) saturate(512%) hue-rotate(167deg);
+}
+
 /* HERO */
 .hero {
   display: flex;
